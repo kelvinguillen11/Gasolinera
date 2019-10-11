@@ -269,6 +269,7 @@
             this.bomba1pc.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.bomba1pc.TabIndex = 28;
             this.bomba1pc.TabStop = false;
+            this.bomba1pc.Click += new System.EventHandler(this.Bomba1pc_Click);
             // 
             // pictureBox2
             // 
@@ -279,11 +280,12 @@
             this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox2.TabIndex = 27;
             this.pictureBox2.TabStop = false;
+            this.pictureBox2.Click += new System.EventHandler(this.PictureBox2_Click);
             // 
             // pictureBox1
             // 
             this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
-            this.pictureBox1.Location = new System.Drawing.Point(794, 499);
+            this.pictureBox1.Location = new System.Drawing.Point(794, 459);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(111, 78);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
