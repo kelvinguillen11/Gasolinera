@@ -131,17 +131,17 @@ namespace RV180800_GA181200
             bomba5();
             bomba6();
         }
-        
-        
 
+        private void Bomba1pc_Click(object sender, EventArgs e)
+        {
+            formup fr = new formup();
+            fr.Show();
+            this.Hide();
+        }
 
+        private void PictureBox2_Click(object sender, EventArgs e)
+        {
 
-
-
-
-
-
-
-
-}
+        }
+    }
 }
