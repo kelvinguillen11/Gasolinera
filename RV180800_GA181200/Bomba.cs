@@ -8,6 +8,12 @@ namespace RV180800_GA181200
 {
     class Bomba
     {
+        private int id;
+        public int ID
+        {
+            get { return id; }
+            set { id = value; }
+        }
         private string nombre; 
         public string Nombre 
         {
